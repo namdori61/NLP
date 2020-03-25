@@ -1,0 +1,19 @@
+{
+    "mode": "train",
+
+    "model": "NPLM",
+    "embedding_size": 100,
+    "context_size":4,
+    "hidden_size":100,
+  
+    "cuda": true,
+    "gpu_device": 0,
+  
+    "batch_size": 100,
+  
+    "learning_rate": 0.1,
+  
+    "num_epoch": 30,
+  
+    "checkpoint_file": "checkpoint.pth.tar"
+  }
