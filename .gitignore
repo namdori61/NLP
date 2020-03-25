@@ -1,0 +1,13 @@
+# IDE
+.DS_Store
+.vscode/
+__pycache__/
+
+# Virtualenv
+bin/
+include/
+lib/
+.Python
+
+# dataset
+datasets/
